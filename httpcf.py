@@ -6,7 +6,7 @@ import threading
 import random
 import time
 import subprocess
-import cfscrape
+
 
 parser = argparse.ArgumentParser(description="cfcannon")
 parser.add_argument('host', nargs="?", help="Host name, i.e: abc.com")
